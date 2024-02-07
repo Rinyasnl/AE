@@ -2,8 +2,8 @@
 import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import ProductList from './ProductList';
-import ProductDetails from './ProductDetails';
+import ProductList from './productList';
+import ProductDetails from './productDetails';
 
 test('renders product list and product details', async () => {
   render(
